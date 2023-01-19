@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Contrast Check</title>
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/c217c3081d.js"
+      crossorigin="anonymous"
+    ></script>
+
+  </head>
+  <body>
+    <script src="Color_Contrast/assets/js/index.js" defer></script> 
+    <div class="result">
+      <h1>
+        <i class="fa-solid fa-paintbrush"></i>Color Contrast Check<i
+          class="fa-solid fa-paintbrush"
+        ></i>
+      </h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde placeat,
+        consectetur error impedit recusandae veritatis at reprehenderit.
+        Cupiditate et nobis tempora tenetur molestias minima? Consectetur odit
+        doloribus aut maiores placeat?
+      </p>
+    </div>
+    <div class="root-container">
+      <p>Normal Text WCAG AA: <i class="fa-solid fa-check"></i></p>
+      <p>Normal Text WCAG AAA: <i class="fa-solid fa-check"></i></p>
+      <p>Large Text WCAG AA: <i class="fa-solid fa-check"></i></p>
+      <p>Large Text WCAG AAA: <i class="fa-solid fa-check"></i></p>
+      <p>Graphical Object and UI WCAG AA: <i class="fa-solid fa-xmark"></i></p>
+    </div>
+    <div class="root-container">
+      <h2>Color Ratio:</h2>
+      <h2>21 : 1</h2>
+    </div>
+    <div class="root-container">
+      <div class="container">
+        <h2>Background</h2>
+        <div class="colored-square" id="background-color"></div>
+        <input type="color" value="#000000" />
+        <p class="color-hexcode">
+          Color Hexcode:<input type="text" value="#000000" />
+        </p>
+      </div>
+      <div class="container">
+        <h2>Foreground</h2>
+        <div class="colored-square" id="foreground-color"></div>
+        <input type="color" value="#ffffff" />
+        <p class="color-hexcode">
+          Color Hexcode:<input type="text" value="#ffffff" />
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
