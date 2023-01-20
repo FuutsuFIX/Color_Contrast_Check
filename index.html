@@ -16,11 +16,10 @@
       src="https://kit.fontawesome.com/c217c3081d.js"
       crossorigin="anonymous"
     ></script>
-
   </head>
   <body>
-    <script src="Color_Contrast/assets/js/index.js" defer></script> 
-    <div class="result">
+    <script src="./assets/js/index.js" defer></script>
+    <div id="result">
       <h1>
         <i class="fa-solid fa-paintbrush"></i>Color Contrast Check<i
           class="fa-solid fa-paintbrush"
@@ -48,17 +47,17 @@
       <div class="container">
         <h2>Background</h2>
         <div class="colored-square" id="background-color"></div>
-        <input type="color" value="#000000" />
+        <input type="color" value="#000000" id="background-color-picker" />
         <p class="color-hexcode">
-          Color Hexcode:<input type="text" value="#000000" />
+          Color Hexcode:<input type="text" value="#000000" id="bg-hexcode" />
         </p>
       </div>
       <div class="container">
         <h2>Foreground</h2>
         <div class="colored-square" id="foreground-color"></div>
-        <input type="color" value="#ffffff" />
+        <input type="color" value="#ffffff" id="foreground-color-picker" />
         <p class="color-hexcode">
-          Color Hexcode:<input type="text" value="#ffffff" />
+          Color Hexcode:<input type="text" value="#ffffff" id="fg-hexcode" />
         </p>
       </div>
     </div>

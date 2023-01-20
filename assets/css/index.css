@@ -1,6 +1,6 @@
 * {
   border: 0px solid red;
-  background-color: #595959;
+  background-color: #202124;
   font-family: "Montserrat", sans-serif;
   margin: 0.2em;
   scroll-behavior: smooth;
@@ -50,7 +50,7 @@ input[type="text"] {
   align-self: flex-end;
 }
 
-.result {
+#result {
   color: white;
   background-color: black;
   padding-bottom: 1em;
@@ -63,6 +63,7 @@ h2 {
   text-align: center;
   background-color: inherit;
   padding: 0.4em;
+  color: inherit;
 }
 
 i{align-self: flex-end;}
