@@ -11,16 +11,16 @@ const colorPickerForeground = document.getElementById(
 );
 const ratioText = document.getElementById("ratio");
 const normalTextRatioAAIcon = document.getElementById("normalTextAAIcon");
-const largeTextRatioAAIcon = document.getElementById("normalTextAAAIcon");
-const normalTextRatioAAAIcon = document.getElementById("largeTextAAIcon");
+const normalTextRatioAAAIcon = document.getElementById("normalTextAAIcon");
+const largeTextRatioAAIcon = document.getElementById("largeTextAAAIcon");
 const largeTextRatioAAAIcon = document.getElementById("largeTextAAAIcon");
 const graphicObjectRatioAAIcon = document.getElementById("graphicObjectAAIcon");
 
 const normalTextRatioAA = 4.5;
-const normalTextRatioAAA = 7;
-const largeTextRatioAA = 3;
+const normalTextRatioAAA = 7.0;
+const largeTextRatioAA = 3.0;
 const largeTextRatioAAA = 4.5;
-const graphicObjectRatioAA = 3;
+const graphicObjectRatioAA = 3.0;
 
 let ratio = "";
 
@@ -98,21 +98,29 @@ function changeIcons() {
   } else {
     normalTextRatioAAIcon.className = "fa-solid fa-xmark";
   }
+
+
   if (ratio >= normalTextRatioAAA) {
     normalTextRatioAAAIcon.className = "fa-solid fa-check";
   } else {
     normalTextRatioAAAIcon.className = "fa-solid fa-xmark";
   }
+
+
   if (ratio >= largeTextRatioAA) {
     largeTextRatioAAIcon.className = "fa-solid fa-check";
   } else {
     largeTextRatioAAIcon.className = "fa-solid fa-xmark";
   }
+
+
   if (ratio >= largeTextRatioAAA) {
     largeTextRatioAAIcon.className = "fa-solid fa-check";
   } else {
     largeTextRatioAAIcon.className = "fa-solid fa-xmark";
   }
+
+
   if (ratio >= graphicObjectRatioAA) {
     graphicObjectRatioAAIcon.className = "fa-solid fa-check";
   } else {
