@@ -89,7 +89,7 @@ function calculateRatio() {
   } else {
     ratio = (color2luminance + 0.05) / (color1luminance + 0.05);
   }
-  ratioText.innerHTML = ratio;
+  ratioText.innerHTML = ratio.toFixed(2);
 }
 
 function changeIcons() {
