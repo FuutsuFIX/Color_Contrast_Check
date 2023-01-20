@@ -115,9 +115,9 @@ function changeIcons() {
 
 
   if (ratio >= largeTextRatioAAA) {
-    largeTextRatioAAIcon.className = "fa-solid fa-check";
+    largeTextRatioAAAIcon.className = "fa-solid fa-check";
   } else {
-    largeTextRatioAAIcon.className = "fa-solid fa-xmark";
+    largeTextRatioAAAIcon.className = "fa-solid fa-xmark";
   }
 
 
