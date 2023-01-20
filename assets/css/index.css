@@ -1,9 +1,16 @@
 * {
   border: 0px solid red;
-  background-color: #202124;
   font-family: "Montserrat", sans-serif;
   margin: 0.2em;
   scroll-behavior: smooth;
+}
+
+body,
+html {
+  background-image: linear-gradient(to bottom, #202124, #070808);
+  background-size: cover;
+  height: 100%;
+  margin: 0;
 }
 
 .colored-square {
@@ -35,6 +42,7 @@
 input[type="color"] {
   width: 40%;
   padding: 0;
+  background-color: inherit;
 }
 
 .color-hexcode {
@@ -54,6 +62,7 @@ input[type="text"] {
   color: white;
   background-color: black;
   padding-bottom: 1em;
+  margin: 0;
 }
 
 h1,
@@ -65,8 +74,13 @@ h2 {
   padding: 0.4em;
   color: inherit;
 }
+p {
+  padding: 0.4em 1em;
+}
 
-i{align-self: flex-end;}
+i {
+  align-self: flex-end;
+}
 
 #background-color {
   background-color: #000000;
@@ -78,9 +92,24 @@ i{align-self: flex-end;}
   border: 2px solid #000000;
 }
 
-@media only screen and (max-width:600px) {
-    h1 {
-        font-size: 1.5rem;
-    }
-    
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+footer {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+footer > a {
+  color: inherit;
+  font-size: 1.5rem;
+  transition: transform 0.3s;
+}
+footer > a:hover {
+  transform: translateY(-10px);
 }
