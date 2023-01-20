@@ -11,8 +11,8 @@ const colorPickerForeground = document.getElementById(
 );
 const ratioText = document.getElementById("ratio");
 const normalTextRatioAAIcon = document.getElementById("normalTextAAIcon");
-const normalTextRatioAAAIcon = document.getElementById("normalTextAAIcon");
-const largeTextRatioAAIcon = document.getElementById("largeTextAAAIcon");
+const normalTextRatioAAAIcon = document.getElementById("normalTextAAAIcon");
+const largeTextRatioAAIcon = document.getElementById("largeTextAAIcon");
 const largeTextRatioAAAIcon = document.getElementById("largeTextAAAIcon");
 const graphicObjectRatioAAIcon = document.getElementById("graphicObjectAAIcon");
 
