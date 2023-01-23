@@ -50,16 +50,6 @@ function changeActualColors() {
   changeIcons()
 }
 
-/*
-manca la funzione che da inserire dopo i change actual colors che
-deve fare le seguenti cose:
-comprendere quale valore è più alto per preparare la divisione
-fare la divisione per trovare il ratio
-confrontare questi ratio per vedere se rispettano i valori di
-accessibilità
-modificare le icone per dare feedback all'utente
-*/
-
 function hexToRgb(hex) {
   var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
   return result
